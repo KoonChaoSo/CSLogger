@@ -20,3 +20,17 @@ Based on a CSLogger implemented on CocoaLumberjack, different types of log files
   ```
   $ open your Xcode
   ```
+##### Obj-C usage
+You can `#import "CSLogger.h"`.
+
+
+```objc
+    //分开logger不同的flag
+    [DDLog addLogger:[CSLoggerAssembler createCSFileLogger:1000]];
+    [DDLog addLogger:[CSLoggerAssembler createCSFileLogger:1001]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+...
+
+If you need log, you can `#import "CSLogMacro.h"`
+CSLOG_TEST_DDLOG(@"TEST A");
+CSLOG_TEST_DDLOG2(@"TEST B");
