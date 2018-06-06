@@ -9,7 +9,7 @@ Based on a CSLogger implemented on CocoaLumberjack, different types of log files
   $ cd CSLogger
   ```
 
-2. **Install dependencies** (npm v3+):
+2. **Install dependencies** (cocoapods):
 
   ```
   $ pod install
