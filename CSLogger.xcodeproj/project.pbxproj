@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D886E6CD20C8312300594EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6CC20C8312300594EA1 /* AppDelegate.m */; };
+		D886E6D020C8312300594EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6CF20C8312300594EA1 /* ViewController.m */; };
+		D886E6D320C8312300594EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D886E6D120C8312300594EA1 /* Main.storyboard */; };
+		D886E6D520C8312500594EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D886E6D420C8312500594EA1 /* Assets.xcassets */; };
+		D886E6D820C8312500594EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D886E6D620C8312500594EA1 /* LaunchScreen.storyboard */; };
+		D886E6DB20C8312500594EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6DA20C8312500594EA1 /* main.m */; };
+		D886E6EC20C8313B00594EA1 /* CSContextWhitelistFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6E220C8313A00594EA1 /* CSContextWhitelistFilterLogFormatter.m */; };
+		D886E6ED20C8313B00594EA1 /* CSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6E320C8313A00594EA1 /* CSFileLogger.m */; };
+		D886E6EE20C8313B00594EA1 /* CSLoggerAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6E520C8313A00594EA1 /* CSLoggerAssembler.m */; };
+		D886E6EF20C8313B00594EA1 /* DDLog+CSLoggerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D886E6E820C8313A00594EA1 /* DDLog+CSLoggerExtension.m */; };
+		D886E6F120C8317900594EA1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D886E6F020C8317900594EA1 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D886E6C820C8312300594EA1 /* CSLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D886E6CB20C8312300594EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D886E6CC20C8312300594EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D886E6CE20C8312300594EA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D886E6CF20C8312300594EA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D886E6D220C8312300594EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D886E6D420C8312500594EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D886E6D720C8312500594EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D886E6D920C8312500594EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D886E6DA20C8312500594EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D886E6E220C8313A00594EA1 /* CSContextWhitelistFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSContextWhitelistFilterLogFormatter.m; sourceTree = "<group>"; };
+		D886E6E320C8313A00594EA1 /* CSFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFileLogger.m; sourceTree = "<group>"; };
+		D886E6E420C8313A00594EA1 /* DDLog+CSLoggerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+CSLoggerExtension.h"; sourceTree = "<group>"; };
+		D886E6E520C8313A00594EA1 /* CSLoggerAssembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLoggerAssembler.m; sourceTree = "<group>"; };
+		D886E6E620C8313A00594EA1 /* CSContextWhitelistFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSContextWhitelistFilterLogFormatter.h; sourceTree = "<group>"; };
+		D886E6E720C8313A00594EA1 /* CSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLogger.h; sourceTree = "<group>"; };
+		D886E6E820C8313A00594EA1 /* DDLog+CSLoggerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDLog+CSLoggerExtension.m"; sourceTree = "<group>"; };
+		D886E6E920C8313A00594EA1 /* CSLogMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLogMacro.h; sourceTree = "<group>"; };
+		D886E6EA20C8313A00594EA1 /* CSFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFileLogger.h; sourceTree = "<group>"; };
+		D886E6EB20C8313A00594EA1 /* CSLoggerAssembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLoggerAssembler.h; sourceTree = "<group>"; };
+		D886E6F020C8317900594EA1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D886E6C520C8312300594EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D886E6BF20C8312200594EA1 = {
+			isa = PBXGroup;
+			children = (
+				D886E6CA20C8312300594EA1 /* CSLogger */,
+				D886E6C920C8312300594EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D886E6C920C8312300594EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D886E6C820C8312300594EA1 /* CSLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D886E6CA20C8312300594EA1 /* CSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D886E6F020C8317900594EA1 /* Podfile */,
+				D886E6E120C8313A00594EA1 /* CSLogger */,
+				D886E6CB20C8312300594EA1 /* AppDelegate.h */,
+				D886E6CC20C8312300594EA1 /* AppDelegate.m */,
+				D886E6CE20C8312300594EA1 /* ViewController.h */,
+				D886E6CF20C8312300594EA1 /* ViewController.m */,
+				D886E6D120C8312300594EA1 /* Main.storyboard */,
+				D886E6D420C8312500594EA1 /* Assets.xcassets */,
+				D886E6D620C8312500594EA1 /* LaunchScreen.storyboard */,
+				D886E6D920C8312500594EA1 /* Info.plist */,
+				D886E6DA20C8312500594EA1 /* main.m */,
+			);
+			path = CSLogger;
+			sourceTree = "<group>";
+		};
+		D886E6E120C8313A00594EA1 /* CSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D886E6E620C8313A00594EA1 /* CSContextWhitelistFilterLogFormatter.h */,
+				D886E6E220C8313A00594EA1 /* CSContextWhitelistFilterLogFormatter.m */,
+				D886E6EA20C8313A00594EA1 /* CSFileLogger.h */,
+				D886E6E320C8313A00594EA1 /* CSFileLogger.m */,
+				D886E6E720C8313A00594EA1 /* CSLogger.h */,
+				D886E6EB20C8313A00594EA1 /* CSLoggerAssembler.h */,
+				D886E6E520C8313A00594EA1 /* CSLoggerAssembler.m */,
+				D886E6E920C8313A00594EA1 /* CSLogMacro.h */,
+				D886E6E420C8313A00594EA1 /* DDLog+CSLoggerExtension.h */,
+				D886E6E820C8313A00594EA1 /* DDLog+CSLoggerExtension.m */,
+			);
+			path = CSLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D886E6C720C8312300594EA1 /* CSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D886E6DE20C8312500594EA1 /* Build configuration list for PBXNativeTarget "CSLogger" */;
+			buildPhases = (
+				D886E6C420C8312300594EA1 /* Sources */,
+				D886E6C520C8312300594EA1 /* Frameworks */,
+				D886E6C620C8312300594EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSLogger;
+			productName = CSLogger;
+			productReference = D886E6C820C8312300594EA1 /* CSLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D886E6C020C8312200594EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ChaoSo;
+				TargetAttributes = {
+					D886E6C720C8312300594EA1 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D886E6C320C8312200594EA1 /* Build configuration list for PBXProject "CSLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D886E6BF20C8312200594EA1;
+			productRefGroup = D886E6C920C8312300594EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D886E6C720C8312300594EA1 /* CSLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D886E6C620C8312300594EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D886E6D820C8312500594EA1 /* LaunchScreen.storyboard in Resources */,
+				D886E6D520C8312500594EA1 /* Assets.xcassets in Resources */,
+				D886E6F120C8317900594EA1 /* Podfile in Resources */,
+				D886E6D320C8312300594EA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D886E6C420C8312300594EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D886E6D020C8312300594EA1 /* ViewController.m in Sources */,
+				D886E6EC20C8313B00594EA1 /* CSContextWhitelistFilterLogFormatter.m in Sources */,
+				D886E6EE20C8313B00594EA1 /* CSLoggerAssembler.m in Sources */,
+				D886E6DB20C8312500594EA1 /* main.m in Sources */,
+				D886E6ED20C8313B00594EA1 /* CSFileLogger.m in Sources */,
+				D886E6EF20C8313B00594EA1 /* DDLog+CSLoggerExtension.m in Sources */,
+				D886E6CD20C8312300594EA1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D886E6D120C8312300594EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D886E6D220C8312300594EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D886E6D620C8312500594EA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D886E6D720C8312500594EA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D886E6DC20C8312500594EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D886E6DD20C8312500594EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D886E6DF20C8312500594EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChaoSo.CSLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D886E6E020C8312500594EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChaoSo.CSLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D886E6C320C8312200594EA1 /* Build configuration list for PBXProject "CSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D886E6DC20C8312500594EA1 /* Debug */,
+				D886E6DD20C8312500594EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D886E6DE20C8312500594EA1 /* Build configuration list for PBXNativeTarget "CSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D886E6DF20C8312500594EA1 /* Debug */,
+				D886E6E020C8312500594EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D886E6C020C8312200594EA1 /* Project object */;
+}
