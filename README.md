@@ -1,5 +1,5 @@
 # CSLogger
-Based on a CSLogger implemented on CocoaLumberjack, different types of log files can be distinguished into different folders.
+Based on CocoaLumberjack,CSLogger,different types of log files can be distinguished into different folders.
 ## Setup
 
 1. **Clone the repo**
