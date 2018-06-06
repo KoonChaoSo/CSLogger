@@ -1,2 +1,22 @@
 # CSLogger
-基于CocoaLumberjack之上实现的一个CSLogger，可以将不同类型的log文件区分到不同的文件夹。
+Based on a CSLogger implemented on CocoaLumberjack, different types of log files can be distinguished into different folders.
+## Setup
+
+1. **Clone the repo**
+
+  ```
+  $ git clone https://github.com/KoonChaoSo/CSLogger.git
+  $ cd CSLogger
+  ```
+
+2. **Install dependencies** (npm v3+):
+
+  ```
+  $ pod install
+  ```
+
+3. **Start Test:**
+
+  ```
+  $ open your Xcode
+  ```
