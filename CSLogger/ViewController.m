@@ -19,9 +19,9 @@
     
     
     //测试输出A
-    SHLOG_TEST_DDLOG(@"TEST ONE IS AAAAAAAA");
+    CSLOG_TEST_DDLOG(@"TEST ONE IS AAAAAAAA");
     //测试输出B
-    SHLOG_TEST_DDLOG2(@"TEST two IS bbbbbbbb");
+    CSLOG_TEST_DDLOG2(@"TEST two IS bbbbbbbb");
 }
 
 
